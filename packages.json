@@ -1,0 +1,17 @@
+{
+  "localOnly": false,
+  "packages": [
+    {
+      "id": "magpie-routes",
+      "version": "0.1.0",
+      "filename": "magpie-routes-0.1.0.tmplugin",
+      "sha256": "199c56ccdd8ab6f82365c6b40882426b27be81ae0e0c7f358b692e57a90ae03f"
+    },
+    {
+      "id": "antigravity-account-ledger",
+      "version": "0.1.0",
+      "filename": "antigravity-account-ledger-0.1.0.tmplugin",
+      "sha256": "9bb4fd4a8529923d5599a6f145eb1f9e4a4658016e30462c1a2457954d940f97"
+    }
+  ]
+}

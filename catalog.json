@@ -19,7 +19,7 @@
       },
       "author": "Javis603",
       "identityIcon": "data:image/png;base64,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",
-      "repository": "https://github.com/Javis603/token-monitor-plugins",
+      "repository": "https://github.com/crrisugi/token-monitor-plugins",
       "readmePaths": {
         "en": "plugins/magpie-routes/README.md",
         "zh-CN": "plugins/magpie-routes/README.zh-CN.md",
@@ -42,8 +42,54 @@
           "engines": {
             "tokenMonitor": ">=0.81.0"
           },
-          "url": "https://raw.githubusercontent.com/Javis603/token-monitor-plugins/dist/magpie-routes-0.1.0.tmplugin",
+          "url": "https://raw.githubusercontent.com/crrisugi/token-monitor-plugins/dist/magpie-routes-0.1.0.tmplugin",
           "sha256": "199c56ccdd8ab6f82365c6b40882426b27be81ae0e0c7f358b692e57a90ae03f",
+          "types": [
+            "widget",
+            "page"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antigravity-account-ledger",
+      "name": {
+        "en": "Antigravity Account Ledger",
+        "zh-TW": "Antigravity 多帳號用量帳本",
+        "zh-CN": "Antigravity 多账号用量账本"
+      },
+      "description": {
+        "en": "Per-Google-account token usage, USD cost breakdown, custom date-range filtering, and automatic multi-account attribution for Antigravity (Gemini & Claude/GPT models).",
+        "zh-TW": "按 Antigravity 切換登入的不同 Google 帳號與自訂日期區間統計全部模型（Gemini 與 Claude/GPT）的 Token 消耗與折算費用，並自動進行多帳號歸屬。",
+        "zh-CN": "按 Antigravity 切换登录的不同 Google 账号与自定义日期区间统计全部模型（Gemini 与 Claude/GPT）的 Token 消耗与折算费用，并自动进行多账号归属。"
+      },
+      "author": "crrisugi",
+      "identityIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABEElEQVR4nO3YQQ6CQBBEUU7i3jNwGa/p6XAriUEM1f1rnKqE/fzH4MJlybIsa9rtvm5nHvqcsp0N/isQVfRwGNXh1hDd8TYIVLgFBB2NItCxKAIdiSLQcSgCHYUi0DE4Ah2CAtARKELFgR7P7fCxQpgagIi3QqDiqxACMFI8jhAAg/gKhHaAq/FqhOHePnIL3OLbb0EADOOVCOUAVfEqhADkE2gAqEBQnSsAXQBKBOWZvgI43oLWeLdb0P721QBXENTnCMAvoxHQ+ADkb3EOwSY+AACCXXwVgu0PXxdA1yMDGBFBGj8aQkn8KAil8e4ILfGuCK3xbghIvAME3b3b1PHvmzb806aMPtp0wVmW2e8FRShG0Hgzj1gAAAAASUVORK5CYII=",
+      "repository": "https://github.com/crrisugi/token-monitor-plugins",
+      "readmePaths": {
+        "en": "plugins/antigravity-account-ledger/README.md",
+        "zh-CN": "plugins/antigravity-account-ledger/README.zh-CN.md",
+        "zh-TW": "plugins/antigravity-account-ledger/README.zh-TW.md",
+        "ko": "plugins/antigravity-account-ledger/README.ko.md",
+        "ja": "plugins/antigravity-account-ledger/README.ja.md",
+        "pt-BR": "plugins/antigravity-account-ledger/README.pt-BR.md"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "changelog": {
+            "en": "Initial release: per-Google-account token usage ledger with automatic multi-account attribution (active-account heartbeat timeline plus local quota reset and log anchors), USD cost breakdown across Gemini and Claude/GPT models, custom date-range and account filtering, and a self-contained collapsible Home view.",
+            "zh-CN": "首次发布：按 Google 账号统计 Antigravity（含 Gemini 与 Claude/GPT 模型）的 Token 用量与美元折算费用，支持活跃账号心跳时间线与本地配额/日志锚点的多账号自动归属，并提供自定义日期区间与账号筛选，以及独立可折叠的主页内嵌视图。",
+            "zh-TW": "首次發布：按 Google 帳號統計 Antigravity（含 Gemini 與 Claude/GPT 模型）的 Token 用量與美元折算費用，支援活躍帳號心跳時間線與本機配額/日誌錨點的多帳號自動歸因，並提供自訂日期區間與帳號篩選，以及獨立可折疊的主畫面內嵌視圖。",
+            "ko": "최초 릴리스: Google 계정별 Antigravity(Gemini 및 Claude/GPT 모델) 토큰 사용량 원장. 활성 계정 하트비트 타임라인과 로컬 할당량/로그 앵커를 통한 자동 다중 계정 귀속, 사용자 지정 날짜 범위 및 계정 필터링, 독립적으로 접고 펼칠 수 있는 홈 임베드 뷰를 지원합니다.",
+            "ja": "初回リリース：Googleアカウント別のAntigravity（GeminiおよびClaude/GPTモデル）トークン使用量台帳。アクティブアカウントのハートビートタイムラインとローカルクォータ/ログのアンカーによる複数アカウントの自動帰属、カスタム日付範囲とアカウントのフィルタリング、独立して折りたたみ可能なホーム埋め込みビューに対応。",
+            "pt-BR": "Lançamento inicial: registro de uso de tokens do Antigravity por conta Google (modelos Gemini e Claude/GPT), com atribuição automática entre contas pela linha do tempo de heartbeat e por âncoras locais de cota/logs, filtro por intervalo de datas personalizado e por conta, e uma visualização recolhível independente na página inicial."
+          },
+          "engines": {
+            "tokenMonitor": ">=0.81.0"
+          },
+          "url": "https://raw.githubusercontent.com/crrisugi/token-monitor-plugins/dist/antigravity-account-ledger-0.1.0.tmplugin",
+          "sha256": "9bb4fd4a8529923d5599a6f145eb1f9e4a4658016e30462c1a2457954d940f97",
           "types": [
             "widget",
             "page"
