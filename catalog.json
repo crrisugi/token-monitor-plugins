@@ -76,6 +76,26 @@
       },
       "versions": [
         {
+          "version": "0.2.2",
+          "changelog": {
+            "en": "Fix background timer starvation bug where frequent host `update()` calls reset the background heartbeat timer and stalled hidden-mode attribution; read initial background-mode state immediately for first-frame reminders; and add official Antigravity CLI auth log (`cli-*.log`) account activity detection.",
+            "zh-CN": "修复后台运行定时器饥饿 Bug（宿主每次刷新用量触发 `update()` 时反复重置 30 秒后台定时器，导致隐藏期间无法记账）；改为保留已有定时器并按节流事件驱动同步；启动首帧即读取宿主后台运行开关状态以准确提示；并补充官方 Antigravity CLI 登录日志（`cli-*.log`）账号活动检测。",
+            "zh-TW": "修復背景執行計時器飢餓 Bug（宿主每次刷新用量觸發 `update()` 時反覆重設 30 秒背景計時器，導致隱藏期間無法記帳）；改為保留既有計時器並依節流事件驅動同步；啟動首幀即讀取宿主背景執行開關狀態以準確提示；並補上官方 Antigravity CLI 登入日誌（`cli-*.log`）帳號活動偵測。",
+            "ko": "호스트의 잦은 `update()` 호출이 백그라운드 하트비트 타이머를 반복 초기화해 숨김 상태에서 기록이 멈추던 타이머 기아 버그를 수정했습니다. 기존 타이머를 유지하며 스로틀 기반 이벤트 동기화를 수행하고, 첫 프레임에서 백그라운드 활성화 상태를 즉시 읽으며, 공식 Antigravity CLI 로그인 로그(`cli-*.log`) 계정 활동 감지를 추가했습니다.",
+            "ja": "ホストの頻繁な `update()` 呼び出しによりバックグラウンドタイマーが繰り返しリセットされ、非表示時に記録が止まっていたタイマー飢餓バグを修正しました。既存タイマーを維持しつつスロットル駆動で同期し、初回フレームでバックグラウンド設定状態を即時取得し、公式 Antigravity CLI 認証ログ（`cli-*.log`）のアカウント活動検知を追加しました。",
+            "pt-BR": "Corrige o bug de starvation do timer em segundo plano em que chamadas frequentes de `update()` do host reiniciavam o temporizador de 30s e impediam o registro enquanto oculto; lê imediatamente o estado inicial do modo em segundo plano no primeiro quadro e adiciona detecção de atividade de conta pelos logs oficiais do Antigravity CLI (`cli-*.log`)."
+          },
+          "engines": {
+            "tokenMonitor": ">=0.81.0"
+          },
+          "url": "https://raw.githubusercontent.com/crrisugi/token-monitor-plugins/dist/antigravity-account-ledger-0.2.2.tmplugin",
+          "sha256": "6ae3ca4391aac8ad701a8c08b3e5fafbbfdaf8a5eae97ae7cc4cf543418b5f61",
+          "types": [
+            "widget",
+            "page"
+          ]
+        },
+        {
           "version": "0.2.1",
           "changelog": {
             "en": "Enable background execution support (`\"background\": true`) so Token Monitor can keep recording account switches and usage deltas while the Home window is minimized or closed, show an unobtrusive UI reminder when background mode is disabled, and preserve attribution across short same-account window pauses (up to 2 hours when no other account activity occurred).",
