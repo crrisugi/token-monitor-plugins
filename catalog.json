@@ -76,6 +76,26 @@
       },
       "versions": [
         {
+          "version": "0.2.1",
+          "changelog": {
+            "en": "Enable background execution support (`\"background\": true`) so Token Monitor can keep recording account switches and usage deltas while the Home window is minimized or closed, show an unobtrusive UI reminder when background mode is disabled, and preserve attribution across short same-account window pauses (up to 2 hours when no other account activity occurred).",
+            "zh-CN": "声明后台运行支持（`\"background\": true`），允许 Token Monitor 在主窗口关闭或最小化后继续保持轻量后台分账；未开启后台运行时在面板展示提醒；同时优化同一账号短时关闭窗口（2 小时内且无其他账号活动）的连续归属，避免随手最小化窗口导致当次消耗落入未归属。",
+            "zh-TW": "宣告背景執行支援（`\"background\": true`），讓 Token Monitor 在主視窗關閉或最小化後仍可持續進行輕量背景分帳；未開啟背景執行時於面板提示；並最佳化同一帳號短暫關閉視窗（2 小時內且無其他帳號活動）的連續歸屬，避免隨手最小化視窗就落入未歸屬。",
+            "ko": "백그라운드 실행 지원(`\"background\": true`)을 선언하여 메인 창이 최소화되거나 닫혀 있을 때도 계정 전환과 사용량 증분을 계속 기록할 수 있도록 개선했습니다. 백그라운드 모드가 꺼져 있을 때 안내 문구를 표시하며, 다른 계정 활동이 없는 동일 계정의 짧은 창 중단(최대 2시간) 동안 귀속이 끊기지 않도록 보완했습니다.",
+            "ja": "バックグラウンド実行サポート（`\"background\": true`）を宣言し、メインウィンドウを最小化または閉じた状態でもアカウント切替と使用量差分を継続記録できるようにしました。バックグラウンド無効時はパネルに案内を表示し、他アカウントの活動がない同一アカウントの短時間中断（最大 2 時間）でも帰属が途切れないよう改善しました。",
+            "pt-BR": "Declara suporte a execução em segundo plano (`\"background\": true`) para que o Token Monitor continue registrando trocas de conta e deltas de uso mesmo com a janela principal minimizada ou fechada, exibe um aviso discreto quando o modo em segundo plano está desativado e preserva a atribuição em pausas curtas da mesma conta (até 2 horas sem atividade de outra conta)."
+          },
+          "engines": {
+            "tokenMonitor": ">=0.81.0"
+          },
+          "url": "https://raw.githubusercontent.com/crrisugi/token-monitor-plugins/dist/antigravity-account-ledger-0.2.1.tmplugin",
+          "sha256": "9e385055df772306c7004afcbe13d260a496c7c43e4fea8d9a9d16c9656cc0ac",
+          "types": [
+            "widget",
+            "page"
+          ]
+        },
+        {
           "version": "0.2.0",
           "changelog": {
             "en": "Switch to Token Monitor host-first accounting (`data.query` for `tools`, `models`, `history`, and `limits`) with restart-safe daily high-water delta attribution: eliminate plugin-side SQLite/Protobuf scanning, hardcoded model pricing tables, and false single-account quota-anchor guesses; detect live accounts via host RPC probe and Antigravity 2.0 `app_storage.json` using freshness comparison; keep lightweight background sync while hidden with offline gap protection.",
