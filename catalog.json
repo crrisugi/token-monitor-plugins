@@ -76,6 +76,26 @@
       },
       "versions": [
         {
+          "version": "0.2.0",
+          "changelog": {
+            "en": "Switch to Token Monitor host-first accounting (`data.query` for `tools`, `models`, `history`, and `limits`) with restart-safe daily high-water delta attribution: eliminate plugin-side SQLite/Protobuf scanning, hardcoded model pricing tables, and false single-account quota-anchor guesses; detect live accounts via host RPC probe and Antigravity 2.0 `app_storage.json` using freshness comparison; keep lightweight background sync while hidden with offline gap protection.",
+            "zh-CN": "重构为宿主优先架构：直接复用 Token Monitor 宿主的 `data.query`（`tools` / `models` / `history` / `limits`）获取用量与折算费用，彻底移除插件侧 SQLite/Protobuf 扫描、硬编码定价表与易误归属的配额锚点猜测；改用可跨重启的按日高水位增量实时分账，结合宿主实时 RPC 探测、Antigravity 2.0 `app_storage.json` 时效择优以及后台隐藏同步与离线断档保护。",
+            "zh-TW": "重構為宿主優先架構：直接復用 Token Monitor 宿主的 `data.query`（`tools` / `models` / `history` / `limits`）取得用量與折算費用，徹底移除外掛側 SQLite/Protobuf 掃描、硬編碼定價表與易誤歸屬的配額錨點猜測；改用可跨重啟的按日高水位增量即時分帳，結合宿主即時 RPC 探測、Antigravity 2.0 `app_storage.json` 時效擇優以及背景隱藏同步與離線斷檔保護。",
+            "ko": "호스트 우선 아키텍처로 전환: Token Monitor 호스트의 `data.query`(`tools`, `models`, `history`, `limits`)를 직접 재사용해 사용량과 비용을 가져오며, 플러그인 내부 SQLite/Protobuf 스캔, 하드코딩된 가격표 및 오귀속을 유발하던 할당량 앵커 추정을 제거했습니다. 재시작에도 안전한 일별 고수위 증분 실시간 분배, 호스트 RPC 프로브 및 Antigravity 2.0 `app_storage.json` 최신성 비교, 숨김 상태 백그라운드 동기화와 오프라인 공백 보호를 적용했습니다.",
+            "ja": "ホスト優先アーキテクチャへ移行：Token Monitor ホストの `data.query`（`tools` / `models` / `history` / `limits`）を直接再利用して使用量と費用を取得し、プラグイン側の SQLite/Protobuf スキャン・ハードコード単価表・誤帰属を招くクォータアンカー推定を廃止しました。再起動耐性のある日別ハイウォーターマーク差分によるリアルタイム按分、ホスト RPC 検出および Antigravity 2.0 `app_storage.json` の鮮度比較、非表示時の軽量同期とオフライン空白保護を導入しました。",
+            "pt-BR": "Migra para arquitetura host-first usando `data.query` do Token Monitor (`tools`, `models`, `history` e `limits`) para uso e custos: remove a varredura própria de SQLite/Protobuf, tabelas de preços fixas e heurísticas falhas de cota. Adota atribuição em tempo real por delta diário resistente a reinicializações, detecção de conta ativa por RPC do host e `app_storage.json` do Antigravity 2.0 por recência, além de sincronização leve em segundo plano com proteção contra lacunas offline."
+          },
+          "engines": {
+            "tokenMonitor": ">=0.81.0"
+          },
+          "url": "https://raw.githubusercontent.com/crrisugi/token-monitor-plugins/dist/antigravity-account-ledger-0.2.0.tmplugin",
+          "sha256": "3c1552ac3e5c8c2337e23bf3acc1c452657a32857285ff154662f3df86c6d1d0",
+          "types": [
+            "widget",
+            "page"
+          ]
+        },
+        {
           "version": "0.1.0",
           "changelog": {
             "en": "Initial release: per-Google-account token usage ledger with automatic multi-account attribution (active-account heartbeat timeline plus local quota reset and log anchors), USD cost breakdown across Gemini and Claude/GPT models, custom date-range and account filtering, and a self-contained collapsible Home view.",
